@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FandNCloud.Core\FandNCloud.Core.csproj" />
+      <ProjectReference Include="..\FandNCloud.Data\FandNCloud.Data.csproj" />
+      <ProjectReference Include="..\FandNCloud.Services\FandNCloud.Services.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="9.0.0" />
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.0" />
+      <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.3.1" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="5.3.1" />
+      <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="5.3.1" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.5.0" />
+    </ItemGroup>
+
+
+</Project>
